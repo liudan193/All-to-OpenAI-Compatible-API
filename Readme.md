@@ -4,7 +4,13 @@ This project introduces several methods for converting different types of model 
 
 If you find this project useful, please consider giving it a star 🌟 to show your support 💖!  
 
-Sure! Here's the polished version with a checklist:
+> ⚠️ **Note:**
+> 
+> This project provides simple and easy-to-modify code that helps you convert any POST request LLM service into an OpenAI-compatible format. （这项目提供了简洁且易于修改的代码，帮助您将任何 POST 请求的 LLM 服务转换为 OpenAI 兼容的格式。）
+> 
+> If you have any suggestions regarding the README or the code, feel free to open an issue.
+> 
+> The project currently includes support for POST request LLMs and local LLMs. If you need support for other types of services, feel free to open an issue.
 
 **Current Progress:**
 
@@ -37,7 +43,7 @@ curl "http://localhost:8001/v1/chat/completions" \
 
 For additional test parameters, refer to the official documentation: [https://platform.openai.com/docs/quickstart](https://platform.openai.com/docs/quickstart)  
 
-## 1. LLM Based on POST Requests  
+## 1. POST Requests LLM
 
 In `post_to_openai_api.py`, we implement functionality to convert any POST request into an OpenAI-Compatible API service that supports asynchronous requests.  
 
